@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shark Gaming\\Desktop\\Uni\\1. exam\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj": {}
+    "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shark Gaming\\Desktop\\Uni\\1. exam\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj": {
+    "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shark Gaming\\Desktop\\Uni\\1. exam\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
+        "projectUniqueName": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
         "projectName": "Ro'sTorv",
-        "projectPath": "C:\\Users\\Shark Gaming\\Desktop\\Uni\\1. exam\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
-        "packagesPath": "C:\\Users\\Shark Gaming\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shark Gaming\\Desktop\\Uni\\1. exam\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\obj\\",
+        "projectPath": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
+        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Shark Gaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "uap10.0.17763"
