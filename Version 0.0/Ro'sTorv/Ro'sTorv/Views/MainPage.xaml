@@ -74,7 +74,6 @@
             ItemInvoked="NavigationView_ItemInvoked"
             Grid.Row="1"
             SelectionFollowsFocus="Enabled"
-            IsBackButtonVisible="Collapsed"
         >
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Tag="Home_Page">
