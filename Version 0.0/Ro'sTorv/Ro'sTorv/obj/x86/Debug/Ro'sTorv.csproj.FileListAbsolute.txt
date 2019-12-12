@@ -132,3 +132,8 @@ C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignm
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Settings.xaml
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Home.xbf
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Settings.xbf
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\bin\x86\Debug\Views\Center.xbf
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Center.g.i.cs
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Center.g.cs
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Center.xaml
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Center.xbf

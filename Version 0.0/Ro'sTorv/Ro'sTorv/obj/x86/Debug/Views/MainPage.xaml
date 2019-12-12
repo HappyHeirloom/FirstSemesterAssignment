@@ -55,11 +55,11 @@
         </VisualStateManager.VisualStateGroups >
 
 
-        <NavigationView
+        <NavigationView x:ConnectionId='2'
             x:Name="NavigationView"
-            Loaded="NavigationView_Loaded"
-            SelectionChanged="NavigationView_SelectionChanged"
-            ItemInvoked="NavigationView_ItemInvoked"
+                                          
+                                                              
+                                                    
             SelectionFollowsFocus="Enabled"
             PaneDisplayMode="LeftCompact" 
             Grid.Row="0"
@@ -108,7 +108,7 @@
                     <TextBlock Tag="Nav_LogIn">Log-In</TextBlock>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
-            <Frame x:Name="contentFrame"></Frame>
+            <Frame x:ConnectionId='3' x:Name="contentFrame"></Frame>
         </NavigationView>
 
 
@@ -123,3 +123,4 @@
     </Grid>
 
 </Page>
+

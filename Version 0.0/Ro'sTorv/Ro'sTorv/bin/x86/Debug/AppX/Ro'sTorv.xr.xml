@@ -14,6 +14,12 @@
       <RootProperty Name="RowDefinitions" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Inlines" />
@@ -24,10 +30,12 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Width" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Tag" />
     </RootType>
     <RootType FullName="Ro_sTorv.Views.Biograf" />
     <RootType FullName="Ro_sTorv.Views.Butikker" />
+    <RootType FullName="Ro_sTorv.Views.Center" />
     <RootType FullName="Ro_sTorv.Views.Events" />
     <RootType FullName="Ro_sTorv.Views.Home" />
     <RootType FullName="Ro_sTorv.Views.Leaderboard" />
@@ -36,6 +44,13 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="PlaceholderText" />
@@ -70,13 +85,13 @@
     <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
       <RootProperty Name="MinWindowWidth" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Target" />
       <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="SelectionFollowsFocus" />
+      <RootProperty Name="PaneDisplayMode" />
       <RootProperty Name="IsBackButtonVisible" />
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />
@@ -89,6 +104,10 @@
       <RootProperty Name="Tag" />
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItemHeader">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItemSeparator" />
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="Ro_sTorv.MainPage" />
     <RootType FullName="Ro_sTorv.Views.Parkering" />

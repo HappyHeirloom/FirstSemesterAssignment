@@ -18,7 +18,8 @@
                        TextWrapping="Wrap" Width="300"
                        TextAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
             <TextBox x:ConnectionId='2' x:Name="Username" Margin="4" Width="250" PlaceholderText="Username" Background="LightGray" Foreground="AliceBlue"/>
-            <Button x:ConnectionId='3' x:Name="SignIn" Content="Log-in" Background="DodgerBlue" Foreground="White"
+            <PasswordBox x:ConnectionId='3' x:Name="Password" Margin="4" Width="250" PlaceholderText="Password" Background="LightGray" Foreground="AliceBlue"/>
+            <Button x:ConnectionId='4' x:Name="SignIn" Content="Log-in" Background="DodgerBlue" Foreground="White"
                      Width="80" HorizontalAlignment="Center" Margin="0,20"/>
         </StackPanel>
     </Grid>

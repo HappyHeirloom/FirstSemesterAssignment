@@ -30,10 +30,10 @@ namespace Ro_sTorv
         }
 
         // When mainpage is loaded, navigate to the log-in page
-        private void MainPageLoaded(object sender, RoutedEventArgs e)
-        {
-            Frame.Navigate(typeof(LogIn));
-        }
+        //private void MainPageLoaded(object sender, RoutedEventArgs e)
+        //{
+        //    Frame.Navigate(typeof(LogIn));
+        //}
 
 
         #region NavigationView event handlers
@@ -43,9 +43,9 @@ namespace Ro_sTorv
             // Set selected element
             foreach (NavigationViewItemBase item in NavigationView.MenuItems)
             {
-                if (item is NavigationViewItem && item.Tag.ToString() == "Home_Page")
+                if (item is NavigationViewItem && item.Tag.ToString() == "Home_Page") // If a page is named Home_Page, then navigate to it on load.
                 {
-                    NavigationView.SelectedItem = item;
+                    NavigationView.SelectedItem = item; //First seleceted item is Home_Page
                     break;
                 }
             }
@@ -95,6 +95,10 @@ namespace Ro_sTorv
 
                         case "Nav_Spil":
                             contentFrame.Navigate(typeof(Spil));
+                            break;
+
+                        case "Nav_Center":
+                            contentFrame.Navigate(typeof(Center));
                             break;
 
                         case "Nav_LogIn":

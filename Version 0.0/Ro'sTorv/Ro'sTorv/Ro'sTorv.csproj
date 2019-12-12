@@ -125,6 +125,9 @@
     <Compile Include="Views\Butikker.xaml.cs">
       <DependentUpon>Butikker.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Center.xaml.cs">
+      <DependentUpon>Center.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Events.xaml.cs">
       <DependentUpon>Events.xaml</DependentUpon>
     </Compile>
@@ -178,6 +181,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Butikker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Center.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
