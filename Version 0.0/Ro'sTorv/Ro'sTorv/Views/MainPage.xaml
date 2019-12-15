@@ -11,8 +11,8 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <!-- Make 12 columns -->
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="Auto"/>
@@ -41,7 +41,7 @@
         </Grid.RowDefinitions>
 
         <!-- When window width is less than the threshold, make the Navigationviews PaneDisplayMode = "Left" -->
-        <VisualStateManager.VisualStateGroups>
+        <!--<VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState>
                     <VisualState.StateTriggers>
@@ -52,7 +52,7 @@
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups >
+        </VisualStateManager.VisualStateGroups >-->
 
 
         <NavigationView
@@ -61,12 +61,12 @@
             SelectionChanged="NavigationView_SelectionChanged"
             ItemInvoked="NavigationView_ItemInvoked"
             SelectionFollowsFocus="Enabled"
-            PaneDisplayMode="LeftCompact" 
+            PaneDisplayMode="Left" 
             Grid.Row="0"
             Grid.RowSpan="10"
             Grid.Column="0"
-            Grid.ColumnSpan="1"
             IsBackButtonVisible="Collapsed"
+            PaneTitle="Welcome To Ro's Torv"
         >
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Tag="Home_Page">
@@ -76,6 +76,12 @@
                 <NavigationViewItemHeader Content="Butikker"/>
                 <NavigationViewItem Icon="Shop" Tag="Butik_Page">
                     <TextBlock Tag="Nav_Butik">Butik</TextBlock>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Shop" Tag="Gamestop_Page">
+                    <TextBlock Tag="Nav_Gamestop">Gamestop</TextBlock>
+                </NavigationViewItem>
+                <NavigationViewItem Icon="Shop" Tag="DefaultShop_Page">
+                    <TextBlock Tag="Nav_DefaultShop">H og M</TextBlock>
                 </NavigationViewItem>
 
                 <NavigationViewItemSeparator/>
@@ -112,14 +118,14 @@
         </NavigationView>
 
 
-        <TextBlock 
+        <!--<TextBlock 
             FontSize="72"
-            Grid.Row="1"
+            Grid.Row="0"
             Grid.Column="2"
             Grid.ColumnSpan="8"
             VerticalAlignment="Center"
             HorizontalAlignment="Center"
-        > Welcome to RosTorv</TextBlock>
+        > Welcome to RosTorv</TextBlock>-->
     </Grid>
 
 </Page>

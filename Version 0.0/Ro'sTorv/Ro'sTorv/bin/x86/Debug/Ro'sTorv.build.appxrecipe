@@ -79,8 +79,14 @@
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Center.xbf">
       <PackagePath>Views\Center.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\DefaultShop.xbf">
+      <PackagePath>Views\DefaultShop.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Events.xbf">
       <PackagePath>Views\Events.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Gamestop.xbf">
+      <PackagePath>Views\Gamestop.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Home.xbf">
       <PackagePath>Views\Home.xbf</PackagePath>

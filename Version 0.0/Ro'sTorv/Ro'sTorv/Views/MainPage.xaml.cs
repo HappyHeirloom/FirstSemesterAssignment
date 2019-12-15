@@ -77,6 +77,14 @@ namespace Ro_sTorv
                             contentFrame.Navigate(typeof(Butikker));
                             break;
 
+                        case "Nav_Gamestop":
+                            contentFrame.Navigate(typeof(Gamestop));
+                            break;
+
+                        case "Nav_DefaultShop":
+                            contentFrame.Navigate(typeof(DefaultShop));
+                            break;
+
                         case "Nav_Event":
                             contentFrame.Navigate(typeof(Events));
                             break;

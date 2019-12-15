@@ -81,7 +81,6 @@ C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignm
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
-C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\LogIn.g.i.cs
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\LogIn.g.cs
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\MainPage.g.i.cs
@@ -137,3 +136,13 @@ C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignm
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Center.g.cs
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Center.xaml
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Center.xbf
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\bin\x86\Debug\Views\DefaultShop.xbf
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\bin\x86\Debug\Views\Gamestop.xbf
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\DefaultShop.g.i.cs
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\DefaultShop.g.cs
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Gamestop.g.i.cs
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Gamestop.g.cs
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\DefaultShop.xaml
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Gamestop.xaml
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\DefaultShop.xbf
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Views\Gamestop.xbf
