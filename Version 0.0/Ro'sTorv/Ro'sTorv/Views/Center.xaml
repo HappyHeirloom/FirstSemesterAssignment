@@ -9,6 +9,13 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock> Center </TextBlock>
+        <Border BorderBrush="Gray" BorderThickness="0" Height="Auto" Width="1000" Margin="0,175,20,0" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <TextBlock TextWrapping="Wrap">
+                <LineBreak /><LineBreak />Ro’s torv er et shoppingcenter, der er lokaliseret i midten af Roskilde.<LineBreak/>Ro’s torv har fokus på flot arkitektur, design og kunst.<LineBreak/>Shoppingcenteret blev opført i år 2003, men senere i år 2006 der fandt man ud af, at der var brug for en udbygning af centret, man gik derfor igang med at udbygge ro’s torv større, og det stod med sine 47.000 m2 færdigt i år 2009 <LineBreak />
+                <LineBreak />Ro’s torv kan man handle i lige den butik som er nødvendigt, da centret har 60 unikke butikker, og 10 forskellige spisesteder til den sultne person. Hvis man ikke skal handle, så kan man tage i biografen, træne i deres fitnesscenter, eller sætte sin bolig til salg, alt sammen inde fra centret.
+
+            </TextBlock>
+        </Border>
+        <Image Width="1200" HorizontalAlignment="Center" VerticalAlignment="Top" Source="/Assets/Rostorv.jpg"></Image>
     </Grid>
 </Page>

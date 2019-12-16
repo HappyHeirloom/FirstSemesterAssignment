@@ -76,14 +76,14 @@
                 
                 <NavigationViewItemSeparator/>
                 <!--<NavigationViewItemHeader Content="Butikker"/> -->
-                <NavigationViewItem Icon="Shop" Tag="Butik_Page">
+                <!--<NavigationViewItem Icon="Shop" Tag="Butik_Page">
                     <TextBlock Tag="Nav_Butik">Butik</TextBlock>
-                </NavigationViewItem>
+                </NavigationViewItem>-->
                 <NavigationViewItem Icon="Shop" Tag="Gamestop_Page">
                     <TextBlock Tag="Nav_Gamestop">Gamestop</TextBlock>
                 </NavigationViewItem>
                 <NavigationViewItem Icon="Shop" Tag="DefaultShop_Page">
-                    <TextBlock Tag="Nav_DefaultShop">H og M</TextBlock>
+                    <TextBlock Tag="Nav_DefaultShop">H&amp;M</TextBlock>
                 </NavigationViewItem>
 
                 <!--Seperates the items with a line-->

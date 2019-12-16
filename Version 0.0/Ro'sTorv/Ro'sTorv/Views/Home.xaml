@@ -9,17 +9,19 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock FontWeight="Black" FontSize="22" HorizontalAlignment="Center" Margin="0,125,0,0">Nye ting i Ros Torv</TextBlock>
-        <Border BorderBrush="Gray" BorderThickness="4" Height="600" Width="450" Margin="0,115,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <ListView HorizontalAlignment="Center">
-                <TextBlock FontWeight="Black" HorizontalAlignment="Center"><Hyperlink NavigateUri="https://rostorv.dk/aktiviteter/nyhed-boernenes-julebillet/">NYHED: BØRNENES JULEBILLET</Hyperlink></TextBlock>
-                <Image Source="/Assets/Nyhed1.jpg" VerticalAlignment="Top"></Image>
-                <TextBlock FontWeight="Black" HorizontalAlignment="Center"><Hyperlink NavigateUri="https://rostorv.dk/aktiviteter/braendte-mandler/">BRÆNDTE MANDLER</Hyperlink></TextBlock>
-                <Image Source="/Assets/nyhed2.jpg" VerticalAlignment="Center" ></Image>
-                <TextBlock FontWeight="Black" HorizontalAlignment="Center"><Hyperlink NavigateUri="https://rostorv.dk/aktiviteter/danmarks-stoerste-mistelten/">DANMARKS STØRSTE MISTELTEN</Hyperlink></TextBlock>
-                <Image Source="/Assets/nyhed3.jpg" VerticalAlignment="Bottom"></Image>
-            </ListView>
-        </Border>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Spacing="20">
+            <TextBlock FontWeight="Black" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,0">Nye ting i Ros Torv</TextBlock>
+            <Border BorderBrush="Gray" BorderThickness="4" Height="Auto" Width="450" Margin="0,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ListView HorizontalAlignment="Center">
+                    <TextBlock FontWeight="Black" HorizontalAlignment="Center"><Hyperlink NavigateUri="https://rostorv.dk/aktiviteter/nyhed-boernenes-julebillet/">NYHED: BØRNENES JULEBILLET</Hyperlink></TextBlock>
+                    <Image Source="/Assets/Nyhed1.jpg" VerticalAlignment="Top"></Image>
+                    <TextBlock FontWeight="Black" HorizontalAlignment="Center"><Hyperlink NavigateUri="https://rostorv.dk/aktiviteter/braendte-mandler/">BRÆNDTE MANDLER</Hyperlink></TextBlock>
+                    <Image Source="/Assets/nyhed2.jpg" VerticalAlignment="Center" ></Image>
+                    <TextBlock FontWeight="Black" HorizontalAlignment="Center"><Hyperlink NavigateUri="https://rostorv.dk/aktiviteter/danmarks-stoerste-mistelten/">DANMARKS STØRSTE MISTELTEN</Hyperlink></TextBlock>
+                    <Image Source="/Assets/nyhed3.jpg" VerticalAlignment="Bottom"></Image>
+                </ListView>
+            </Border>
+        </StackPanel>
 
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Left" Margin="200,100,0,0">
             <HyperlinkButton Margin="0,0,0,10" NavigateUri="https://www.facebook.com/rostorv">

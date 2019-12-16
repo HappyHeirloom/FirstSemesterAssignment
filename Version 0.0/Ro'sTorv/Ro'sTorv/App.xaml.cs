@@ -7,6 +7,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -70,7 +71,20 @@ namespace Ro_sTorv
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
+
             }
+            var titleBar = ApplicationView.GetForCurrentView().TitleBar;
+
+            titleBar.BackgroundColor = Windows.UI.Colors.Azure;
+            titleBar.ButtonBackgroundColor = Windows.UI.Colors.Azure;
+            titleBar.ButtonHoverBackgroundColor = Windows.UI.Colors.DarkSeaGreen;
+            titleBar.ButtonPressedBackgroundColor = Windows.UI.Colors.LightGreen;
+
+            // Set inactive window colors
+            titleBar.InactiveForegroundColor = Windows.UI.Colors.Gray;
+            titleBar.InactiveBackgroundColor = Windows.UI.Colors.SeaGreen;
+            titleBar.ButtonInactiveForegroundColor = Windows.UI.Colors.Gray;
+            titleBar.ButtonInactiveBackgroundColor = Windows.UI.Colors.SeaGreen;
         }
 
         /// <summary>

@@ -9,40 +9,54 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Image Source="/Assets/Gamestop.png" Margin="20,50,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="400"></Image>
+        <Image Source="/Assets/GamestopLocation.jpg" Margin="0,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="400" Height="400"></Image>
 
-        <Grid.ColumnDefinitions>
-            <!-- Make 12 columns -->
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Bottom" Margin="50,0,0,50">
+            <Border Height="Auto" Width="Auto" BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left">
+                <ListView VerticalAlignment="Bottom" IsItemClickEnabled="True">
+                    <Image Source="/Assets/PS4Game1.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
+                    <Image Source="/Assets/PS4Game2.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
+                    <Image Source="/Assets/PS4Game3.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
+                    <Image Source="/Assets/PS4Game4.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
+                </ListView>
+            </Border>
+        </StackPanel>
 
-        <Grid.RowDefinitions>
-            <!-- Make 10 rows -->
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,10">
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Åbningstider i julen" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Mandag: 10:00 - 20:00" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Tirsdag: 10:00 - 20:00" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Onsdag: 10:00 - 20:00" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
 
-        </Grid.RowDefinitions>
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Torsdag: 10:00 - 20:00" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
 
-        <TextBlock> Gamestop</TextBlock>
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Fredag: 10:00 - 20:00" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+            
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Lørdag: 10:00 - 20:00" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
 
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock Text="Søndag: 10:00 - 20:00" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+        </StackPanel>
     </Grid>
 </Page>
 

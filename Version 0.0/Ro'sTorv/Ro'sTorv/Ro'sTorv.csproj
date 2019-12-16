@@ -169,6 +169,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\fb.png" />
+    <Content Include="Assets\Gamestop.png" />
+    <Content Include="Assets\GameStopLocation.jpg" />
     <Content Include="Assets\ig.png" />
     <Content Include="Assets\movie1.jpg" />
     <Content Include="Assets\movie2.jpg" />
@@ -177,6 +179,11 @@
     <Content Include="Assets\Nyhed1.jpg" />
     <Content Include="Assets\nyhed2.jpg" />
     <Content Include="Assets\nyhed3.jpg" />
+    <Content Include="Assets\PS4Game1.jpg" />
+    <Content Include="Assets\PS4Game2.jpg" />
+    <Content Include="Assets\PS4Game3.jpg" />
+    <Content Include="Assets\PS4Game4.jpg" />
+    <Content Include="Assets\Rostorv.jpg" />
     <Content Include="Assets\yt.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
