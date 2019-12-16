@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T08:52:10.372</Modified>
+      <Modified>2019-12-16T12:59:17.750</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Ro%27sTorv.exe">
       <PackagePath>entrypoint\Ro%27sTorv.exe</PackagePath>
-      <Modified>2019-12-16T08:52:09.518</Modified>
+      <Modified>2019-12-16T12:59:17.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -48,101 +48,101 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-12-16T08:40:02.235</Modified>
+      <Modified>2019-12-16T10:49:49.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-12-16T08:40:02.230</Modified>
+      <Modified>2019-12-16T10:49:49.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T08:40:02.231</Modified>
+      <Modified>2019-12-16T10:49:49.131</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T08:40:02.231</Modified>
+      <Modified>2019-12-16T10:49:49.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T08:40:02.232</Modified>
+      <Modified>2019-12-16T10:49:49.132</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T08:40:02.232</Modified>
+      <Modified>2019-12-16T10:49:49.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T08:40:02.232</Modified>
+      <Modified>2019-12-16T10:49:49.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T08:40:02.233</Modified>
+      <Modified>2019-12-16T10:49:49.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Ro%27sTorv.xr.xml">
       <PackagePath>Ro%27sTorv.xr.xml</PackagePath>
-      <Modified>2019-12-16T08:40:02.314</Modified>
+      <Modified>2019-12-16T12:16:55.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.378</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Biograf.xbf">
       <PackagePath>Views\Biograf.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.378</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Butikker.xbf">
       <PackagePath>Views\Butikker.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.378</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Center.xbf">
       <PackagePath>Views\Center.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.378</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\DefaultShop.xbf">
       <PackagePath>Views\DefaultShop.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.378</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Events.xbf">
       <PackagePath>Views\Events.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.378</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Gamestop.xbf">
       <PackagePath>Views\Gamestop.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Home.xbf">
       <PackagePath>Views\Home.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Leaderboard.xbf">
       <PackagePath>Views\Leaderboard.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\LogIn.xbf">
       <PackagePath>Views\LogIn.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Parkering.xbf">
       <PackagePath>Views\Parkering.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Settings.xbf">
       <PackagePath>Views\Settings.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Spil.xbf">
       <PackagePath>Views\Spil.xbf</PackagePath>
-      <Modified>2019-12-16T08:52:09.379</Modified>
+      <Modified>2019-12-16T12:59:17.313</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -150,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-16T08:52:09.793</Modified>
+      <Modified>2019-12-16T12:16:55.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Core\Ro%27sTorv.exe">
       <PackagePath>Ro%27sTorv.exe</PackagePath>
-      <Modified>2019-12-16T08:52:10.363</Modified>
+      <Modified>2019-12-16T12:59:17.750</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

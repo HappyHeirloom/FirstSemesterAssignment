@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ro_sTorv
 {
-    class Model
+    public class Model
     {
         public string Name { get; set; }
 
