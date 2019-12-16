@@ -9,7 +9,33 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Spil</TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="72" Text="Higher or lower"></TextBlock>
+
+        <StackPanel Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
+        <TextBlock Text="To save your highscore, write your name"></TextBlock>
+            <TextBox PlaceholderText="Write your name here"></TextBox>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Width="64" Content="Higher"/>
+                <StackPanel Orientation="Horizontal">
+                    <Border BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
+                        <TextBlock x:ConnectionId='3' x:Name="GameNumber" Text="50" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    </Border>
+                <Border Margin="10,0,0,0" BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
+                    <TextBlock x:ConnectionId='2' x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </Border>
+                <Button Content="Save score" Margin="5,0,0,0"></Button>
+            </StackPanel>
+
+            <Button Width="64" Content="Lower"/>
+        </StackPanel>
+
+        <Border Margin="0,0,10,0"  BorderBrush="Gray" BorderThickness="4" Height="256" Width="108" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <ListView VerticalAlignment="Top" HorizontalAlignment="Center">
+                <TextBlock>Highscore</TextBlock>
+            </ListView>
+        </Border>
     </Grid>
 </Page>
 

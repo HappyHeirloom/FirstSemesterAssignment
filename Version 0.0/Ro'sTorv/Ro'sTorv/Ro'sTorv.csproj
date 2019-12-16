@@ -168,6 +168,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\movie1.jpg" />
+    <Content Include="Assets\movie2.jpg" />
+    <Content Include="Assets\movie3.jpeg" />
+    <Content Include="Assets\movie4.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

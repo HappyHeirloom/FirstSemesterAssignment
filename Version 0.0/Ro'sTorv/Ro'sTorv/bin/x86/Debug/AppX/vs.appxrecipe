@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-12-16T13:12:19.133</Modified>
+      <Modified>2019-12-16T14:14:41.867</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Ro%27sTorv.exe">
       <PackagePath>entrypoint\Ro%27sTorv.exe</PackagePath>
-      <Modified>2019-12-16T13:12:18.786</Modified>
+      <Modified>2019-12-16T14:14:41.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -45,6 +45,22 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T16:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\movie1.jpg">
+      <PackagePath>Assets\movie1.jpg</PackagePath>
+      <Modified>2019-12-16T14:13:54.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\movie2.jpg">
+      <PackagePath>Assets\movie2.jpg</PackagePath>
+      <Modified>2019-12-16T14:13:54.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\movie4.jpg">
+      <PackagePath>Assets\movie4.jpg</PackagePath>
+      <Modified>2019-12-16T14:13:54.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\movie3.jpeg">
+      <PackagePath>Assets\movie3.jpeg</PackagePath>
+      <Modified>2019-12-16T14:13:54.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -86,63 +102,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Ro%27sTorv.xr.xml">
       <PackagePath>Ro%27sTorv.xr.xml</PackagePath>
-      <Modified>2019-12-16T13:12:18.651</Modified>
+      <Modified>2019-12-16T14:14:41.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.236</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Biograf.xbf">
       <PackagePath>Views\Biograf.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.236</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Butikker.xbf">
       <PackagePath>Views\Butikker.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.236</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Center.xbf">
       <PackagePath>Views\Center.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\DefaultShop.xbf">
       <PackagePath>Views\DefaultShop.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Events.xbf">
       <PackagePath>Views\Events.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Gamestop.xbf">
       <PackagePath>Views\Gamestop.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Home.xbf">
       <PackagePath>Views\Home.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Leaderboard.xbf">
       <PackagePath>Views\Leaderboard.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\LogIn.xbf">
       <PackagePath>Views\LogIn.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2019-12-16T13:12:18.662</Modified>
+      <Modified>2019-12-16T14:14:41.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Parkering.xbf">
       <PackagePath>Views\Parkering.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Settings.xbf">
       <PackagePath>Views\Settings.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Spil.xbf">
       <PackagePath>Views\Spil.xbf</PackagePath>
-      <Modified>2019-12-16T13:10:11.237</Modified>
+      <Modified>2019-12-16T14:14:41.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -150,11 +166,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-12-16T13:05:04.719</Modified>
+      <Modified>2019-12-16T14:14:41.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Core\Ro%27sTorv.exe">
       <PackagePath>Ro%27sTorv.exe</PackagePath>
-      <Modified>2019-12-16T13:12:19.130</Modified>
+      <Modified>2019-12-16T14:14:41.864</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

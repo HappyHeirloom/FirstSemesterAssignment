@@ -96,9 +96,9 @@
                     <TextBlock Tag="Nav_Biograf">Biograf</TextBlock>
                 </NavigationViewItem>
 
-                <!--<NavigationViewItem Icon="Add" Tag="Parkering_Page">
+                <NavigationViewItem Icon="Add" Tag="Parkering_Page">
                     <TextBlock Tag="Nav_Parkering">Parkering</TextBlock>
-                </NavigationViewItem>-->
+                </NavigationViewItem>
 
                 <!--<NavigationViewItem Icon="Add" Tag="Leaderboard_Page">
                     <TextBlock Tag="Nav_Leaderboard">Leaderboard</TextBlock>

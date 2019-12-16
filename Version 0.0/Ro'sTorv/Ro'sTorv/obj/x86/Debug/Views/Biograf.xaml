@@ -9,7 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Biograf</TextBlock>
+        <Border Width="Auto" Height="Auto" Background="Azure" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <ListView>
+                <Image Source="/Assets/movie1.jpg"></Image>
+                <Image Source="/Assets/movie2.jpg"></Image>
+                <Image Source="/Assets/movie3.jpeg"></Image>
+                <Image Source="/Assets/movie4.jpg"></Image>
+            </ListView>
+        </Border>
+        
     </Grid>
 </Page>
 
