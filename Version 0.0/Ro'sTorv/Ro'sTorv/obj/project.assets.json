@@ -8151,18 +8151,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jonas\\.nuget\\packages\\": {},
+    "C:\\Users\\alexa\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
+      "projectUniqueName": "C:\\Users\\alexa\\Documents\\GitHub\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
       "projectName": "Ro'sTorv",
-      "projectPath": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
-      "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\obj\\",
+      "projectPath": "C:\\Users\\alexa\\Documents\\GitHub\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
+      "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alexa\\Documents\\GitHub\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8170,7 +8170,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

@@ -61,10 +61,11 @@
                                                               
                                                     
             SelectionFollowsFocus="Enabled"
-            PaneDisplayMode="Top" 
+            PaneDisplayMode="Auto" 
             Grid.Row="0"
             Grid.RowSpan="10"
             Grid.Column="0"
+            Grid.ColumnSpan="12"
             IsBackButtonVisible="Collapsed"
             PaneTitle="Welcome To Ro's Torv"
         >
@@ -85,23 +86,23 @@
                     <TextBlock Tag="Nav_DefaultShop">H og M</TextBlock>
                 </NavigationViewItem>
 
-                <NavigationViewItemSeparator/>
                 <!--Seperates the items with a line-->
-                <NavigationViewItem Icon="Pin" Tag="Event_Page">
+                <NavigationViewItemSeparator/>
+                <!--<NavigationViewItem Icon="Pin" Tag="Event_Page">
                     <TextBlock Tag="Nav_Event">Event</TextBlock>
-                </NavigationViewItem>
+                </NavigationViewItem>-->
 
                 <NavigationViewItem Icon="Trim" Tag="Biograf_Page">
                     <TextBlock Tag="Nav_Biograf">Biograf</TextBlock>
                 </NavigationViewItem>
 
-                <NavigationViewItem Icon="Add" Tag="Parkering_Page">
+                <!--<NavigationViewItem Icon="Add" Tag="Parkering_Page">
                     <TextBlock Tag="Nav_Parkering">Parkering</TextBlock>
-                </NavigationViewItem>
+                </NavigationViewItem>-->
 
-                <NavigationViewItem Icon="Add" Tag="Leaderboard_Page">
+                <!--<NavigationViewItem Icon="Add" Tag="Leaderboard_Page">
                     <TextBlock Tag="Nav_Leaderboard">Leaderboard</TextBlock>
-                </NavigationViewItem>
+                </NavigationViewItem>-->
 
                 <NavigationViewItem Icon="Add" Tag="Spil_Page">
                     <TextBlock Tag="Nav_Spil">Spil</TextBlock>
