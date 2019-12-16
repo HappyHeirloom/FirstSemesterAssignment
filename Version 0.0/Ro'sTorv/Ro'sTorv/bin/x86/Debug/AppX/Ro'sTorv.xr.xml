@@ -8,7 +8,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
-      <RootProperty Name="DataContext" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
@@ -81,7 +80,6 @@
       <RootProperty Name="UpdateSourceTrigger" />
     </RootType>
     <RootType FullName="Ro_sTorv.Views.LogIn" />
-    <RootType FullName="Ro_sTorv.ViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="SelectionFollowsFocus" />
       <RootProperty Name="PaneDisplayMode" />
@@ -96,9 +94,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
       <RootProperty Name="Icon" />
       <RootProperty Name="Tag" />
-      <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItemHeader">
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItemSeparator" />

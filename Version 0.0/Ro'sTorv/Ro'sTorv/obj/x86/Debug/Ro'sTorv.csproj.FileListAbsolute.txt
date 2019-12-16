@@ -53,7 +53,6 @@ C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignm
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\bin\x86\Debug\Ro'sTorv.build.appxrecipe
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\bin\x86\Debug\System.Runtime.dll
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Ro'sTorv.csprojAssemblyReference.cache
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\App.g.i.cs
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\App.g.cs
 C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\XamlTypeInfo.g.cs
@@ -250,3 +249,4 @@ C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'
 C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\alexa\Documents\GitHub\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro'sTorv\Ro'sTorv\obj\x86\Debug\Ro'sTorv.csprojAssemblyReference.cache

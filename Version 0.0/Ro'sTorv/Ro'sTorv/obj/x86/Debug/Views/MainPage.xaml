@@ -7,9 +7,7 @@
     xmlns:local="using:Ro_sTorv"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <Page.DataContext>
-        <local:ViewModel/>
-    </Page.DataContext>
+    
     <Grid>
         <Grid.ColumnDefinitions>
             <!-- Make 12 columns -->
@@ -63,7 +61,7 @@
                                                               
                                                     
             SelectionFollowsFocus="Enabled"
-            PaneDisplayMode="Left" 
+            PaneDisplayMode="Top" 
             Grid.Row="0"
             Grid.RowSpan="10"
             Grid.Column="0"
@@ -74,8 +72,9 @@
                 <NavigationViewItem Icon="Home" Tag="Home_Page">
                     <TextBlock Tag="Nav_Home">Home</TextBlock>
                 </NavigationViewItem>
-
-                <NavigationViewItemHeader Content="Butikker"/>
+                
+                <NavigationViewItemSeparator/>
+                <!--<NavigationViewItemHeader Content="Butikker"/> -->
                 <NavigationViewItem Icon="Shop" Tag="Butik_Page">
                     <TextBlock Tag="Nav_Butik">Butik</TextBlock>
                 </NavigationViewItem>
