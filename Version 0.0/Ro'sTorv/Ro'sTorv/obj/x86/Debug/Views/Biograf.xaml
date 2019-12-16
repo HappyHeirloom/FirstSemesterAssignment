@@ -9,15 +9,41 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Border Width="Auto" Height="Auto" Background="Azure" HorizontalAlignment="Left" VerticalAlignment="Center">
-            <ListView>
-                <Image Source="/Assets/movie1.jpg"></Image>
-                <Image Source="/Assets/movie2.jpg"></Image>
-                <Image Source="/Assets/movie3.jpeg"></Image>
-                <Image Source="/Assets/movie4.jpg"></Image>
+        <Border Margin="10,0,0,0" Padding="10,10,10,10" Width="Auto" Height="Auto" BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <ListView IsItemClickEnabled="True">
+                <Image Source="/Assets/movie1.jpg" Width="200" Height="auto" Margin="0,5,0,5"></Image>
+                <Image Source="/Assets/movie2.jpg" Width="200" Margin="0,10,0,5"></Image>
+                <Image Source="/Assets/movie3.jpeg" Width="200" Margin="0,5,0,5"></Image>
+                <Image Source="/Assets/movie4.jpg" Width="200" Margin="0,5,0,5"></Image>
             </ListView>
         </Border>
-        
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="48">
+            <Border Padding="10,10,10,10" BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock FontSize="17" Text="J. J. Abrams"/>
+            </Border>
+
+            <Border Padding="10,10,10,10" BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock FontSize="17" Text="Oscar Isaac, Daisy Ridley, Billie lourd"/>
+            </Border>
+
+            <Border Padding="10,10,10,10" BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock FontSize="17" Text="2 Timer 22 Minutter"/>
+            </Border>
+
+            <Border Padding="10,10,10,10" BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock FontSize="17" Text="PG - 13"/>
+            </Border>
+        </StackPanel>
+
+        <StackPanel HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Viewbox MaxHeight="500">
+                <Image Source="/Assets/movie1.jpg"/>
+            </Viewbox>
+            <Border Margin="5,5,5,5" Padding="7,7,7,7" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock FontSize="30" Text="Movie Title" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+            </Border>
+        </StackPanel>
     </Grid>
 </Page>
 
