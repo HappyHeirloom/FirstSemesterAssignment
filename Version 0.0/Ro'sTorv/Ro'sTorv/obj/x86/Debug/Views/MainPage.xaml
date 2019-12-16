@@ -12,7 +12,7 @@
         <Grid.ColumnDefinitions>
             <!-- Make 12 columns -->
             <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="Auto"/>
