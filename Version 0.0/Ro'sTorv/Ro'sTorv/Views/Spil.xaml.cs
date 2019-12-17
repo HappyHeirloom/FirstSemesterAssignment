@@ -26,9 +26,5 @@ namespace Ro_sTorv.Views
         {
             this.InitializeComponent();
         }
-        public void Test(Object sender, RoutedEventArgs e)
-        {
-            GameNumber.Text = "5";
-        }
     }
 }

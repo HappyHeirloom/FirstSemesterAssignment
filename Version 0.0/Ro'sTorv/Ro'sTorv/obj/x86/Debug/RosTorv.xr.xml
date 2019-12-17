@@ -1,16 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="SelectedMovie" />
+    <RootPropertyPathName Name="Path" />
+    <RootPropertyPathName Name="PG" />
+    <RootPropertyPathName Name="Length" />
+    <RootPropertyPathName Name="Actors" />
+    <RootPropertyPathName Name="Director" />
+    <RootPropertyPathName Name="Movies" />
     <RootPropertyPathName Name="Name" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
-      <RootProperty Name="Content" />
       <RootProperty Name="DataContext" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Ro_sTorv.ViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
@@ -53,8 +61,9 @@
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Inlines" />
+      <RootProperty Name="MaxWidth" />
       <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="Padding" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Margin" />
@@ -64,17 +73,28 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
+      <RootProperty Name="MaxWidth" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="UpdateSourceTrigger" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="IsItemClickEnabled" />
-      <RootProperty Name="Items" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Items" />
       <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Ro_sTorv.Views.Biograf" />
     <RootType FullName="Ro_sTorv.Views.Butikker" />
@@ -116,13 +136,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
-      <RootEvent Name="Click" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="UpdateSourceTrigger" />
     </RootType>
     <RootType FullName="Ro_sTorv.Views.LogIn" />
-    <RootType FullName="Ro_sTorv.ViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>

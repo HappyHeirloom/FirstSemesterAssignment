@@ -5,8 +5,12 @@
     xmlns:local="using:Ro_sTorv.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:roSTorv="using:Ro_sTorv"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.DataContext>
+        <roSTorv:ViewModel></roSTorv:ViewModel>
+    </Page.DataContext>
 
     <Grid>
         <TextBlock HorizontalAlignment="Center" FontSize="72" Text="Higher or lower"></TextBlock>
@@ -20,12 +24,12 @@
             <Button Width="64" Content="Higher"/>
                 <StackPanel Orientation="Horizontal">
                     <Border BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
-                        <TextBlock x:ConnectionId='4' x:Name="GameNumber" Text="50" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock x:ConnectionId='3' x:FieldModifier="public" x:Name="GameNumber" Text="50" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                     </Border>
                 <Border Margin="10,0,0,0" BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
-                    <TextBlock x:ConnectionId='3' x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock x:ConnectionId='2' x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                 </Border>
-                <Button x:ConnectionId='2' Content="Save score" Margin="5,0,0,0"             ></Button>
+                <Button Content="Save score" Margin="5,0,0,0"></Button>
             </StackPanel>
 
             <Button Width="64" Content="Lower"/>
