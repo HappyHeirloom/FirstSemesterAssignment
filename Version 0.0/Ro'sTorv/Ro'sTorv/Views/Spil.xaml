@@ -21,18 +21,18 @@
         </StackPanel>
 
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Width="64" Content="Higher"/>
+            <Button Width="64" Content="Higher" Click="SendToHigher"/>
                 <StackPanel Orientation="Horizontal">
                     <Border BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
-                        <TextBlock x:FieldModifier="public" x:Name="GameNumber" Text="50" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock x:FieldModifier="public" Text=""  x:Name="GameNumber" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                     </Border>
                 <Border Margin="10,0,0,0" BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
                     <TextBlock x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                 </Border>
-                <Button Content="Save score" Margin="5,0,0,0"></Button>
+                <Button Content="Save score" Margin="5,0,0,0" Click="SendToSave"/>
             </StackPanel>
 
-            <Button Width="64" Content="Lower"/>
+            <Button Width="64" Content="Lower" Click="SendToLower"/>
         </StackPanel>
 
         <Border Margin="0,0,10,0"  BorderBrush="Gray" BorderThickness="4" Height="256" Width="108" VerticalAlignment="Center" HorizontalAlignment="Right">

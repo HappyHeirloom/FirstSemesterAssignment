@@ -120,6 +120,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Spil.cs" />
     <Compile Include="Views\Biograf.xaml.cs">
       <DependentUpon>Biograf.xaml</DependentUpon>
     </Compile>

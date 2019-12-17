@@ -85,7 +85,7 @@
                 <Image Source="{Binding SelectedMovie.Path}"/>
             </Viewbox>
             <Border Margin="5,5,5,5" Padding="7,7,7,7" BorderBrush="Black" BorderThickness="0.5">
-                <TextBlock FontSize="30" Text="Movie Title" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock FontSize="30" Text="{Binding SelectedMovie.Title}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
             </Border>
         </StackPanel>
     </Grid>

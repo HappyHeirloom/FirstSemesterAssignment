@@ -25,6 +25,66 @@ namespace Ro_sTorv.Views
         public Spil()
         {
             this.InitializeComponent();
+            GameNumber.Text = "0";
+            Score.Text = "0";
+        }
+
+
+        public void AddScore()
+        {
+            int score = Int32.Parse(Score.Text);
+
+            score++;
+        }
+
+
+        public void Higher()
+        {
+            int newNumber = NumberGenerator();
+            int currentNum = Int32.Parse(GameNumber.Text);
+            if (currentNum < newNumber)
+            {
+                AddScore();
+            }
+            else
+            {
+                Score.Text = "0";
+            }
+        }
+
+        public void Lower()
+        {
+            int newNumber = NumberGenerator();
+            int currentNum = Int32.Parse(GameNumber.Text);
+            if (currentNum > newNumber)
+            {
+                AddScore();
+            }
+            else
+            {
+                Score.Text = "0";
+            }
+        }
+
+        public int NumberGenerator()
+        {
+            Random random = new Random();
+            return random.Next(0, 10);
+        }
+
+        private void SendToSave(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void SendToLower(object sender, RoutedEventArgs e)
+        {
+            Lower();
+        }
+
+        private void SendToHigher(object sender, RoutedEventArgs e)
+        {
+            Higher();
         }
     }
 }
