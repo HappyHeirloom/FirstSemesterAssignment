@@ -5,22 +5,65 @@
     xmlns:local="using:Ro_sTorv.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:roSTorv="using:Ro_sTorv"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.DataContext>
+        <roSTorv:ViewModel/>
+    </Page.DataContext>
 
     <Grid>
-        <Image Source="/Assets/Gamestop.png" Margin="20,50,0,0"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="400"></Image>
+        <Image Source="/Assets/Gamestop.png" Margin="0,100,250,0"  HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="400"></Image>
         <Image Source="/Assets/GamestopLocation.jpg" Margin="0,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="400" Height="400"></Image>
 
-        <StackPanel VerticalAlignment="Bottom" Margin="50,0,0,50">
+        <StackPanel VerticalAlignment="Bottom" Margin="25,0,0,010">
             <Border Height="Auto" Width="Auto" BorderBrush="Black" BorderThickness="0.5" HorizontalAlignment="Left">
-                <ListView VerticalAlignment="Bottom" IsItemClickEnabled="True">
-                    <Image Source="/Assets/PS4Game1.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
+                <ListView
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    IsItemClickEnabled="True" 
+                    ItemsSource="{Binding Games, UpdateSourceTrigger=PropertyChanged,  Mode=TwoWay}"
+                    SelectedItem="{Binding SelectedGame, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <Image
+                                    MaxWidth="100"
+                                    Margin="0,5,0,5"
+                                    Source="{Binding Path}"
+                                />
+                            </StackPanel>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <!--<Image Source="/Assets/PS4Game1.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
                     <Image Source="/Assets/PS4Game2.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
                     <Image Source="/Assets/PS4Game3.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
-                    <Image Source="/Assets/PS4Game4.jpg" Width="100" Height="100" Margin="0,5,0,5"/>
+                    <Image Source="/Assets/PS4Game4.jpg" Width="100" Height="100" Margin="0,5,0,5"/>-->
                 </ListView>
             </Border>
+        </StackPanel>
+
+        
+        <StackPanel Margin="0,0,0,50" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Border Padding="5"  Width="Auto" MaxWidth="300" MaxHeight="200" Height="Auto" BorderBrush="Black" BorderThickness="0.5" Background="LightSteelBlue">
+                <TextBlock FontSize="30" Text="{Binding SelectedGame.Title}" TextWrapping="Wrap" MaxWidth="200"></TextBlock>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Viewbox MaxWidth="400" MaxHeight="240">
+                    <Image Source="{Binding SelectedGame.Path}"></Image>
+                </Viewbox>
+            </Border>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="30">
+                <Border BorderBrush="Black" BorderThickness="0.5" Padding="8" Background="IndianRed">
+                    <TextBlock FontSize="40" Text="{Binding SelectedGame.Before}"></TextBlock>
+                </Border>
+                <Border BorderBrush="Black" BorderThickness="0.5" Padding="8" Background="Chartreuse">
+                    <TextBlock FontSize="40" Text="{Binding SelectedGame.Now}"></TextBlock>
+                </Border>
+            </StackPanel>
+
         </StackPanel>
 
         <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,10">

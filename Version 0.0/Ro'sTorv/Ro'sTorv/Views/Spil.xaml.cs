@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -27,7 +29,34 @@ namespace Ro_sTorv.Views
             this.InitializeComponent();
             GameNumber.Text = "0";
             Score.Text = "0";
+            ReadFile();
         }
+
+        public string content
+        {
+            get => content;
+            set { content = value; }
+        }
+
+        public async void ReadFile()
+        {
+            string fileName = "TextFile1.txt";
+            string content = "";
+
+            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(new Uri(@"ms-appx:///" + fileName));
+            using (StreamReader reader = new StreamReader(await file.OpenStreamForReadAsync()))
+            {
+                content = reader.ReadToEnd();
+            }
+
+            MessageDialog msg = new MessageDialog(content);
+            await msg.ShowAsync();
+
+        }
+
+
+
+
 
 
         public void AddScore()

@@ -118,6 +118,9 @@
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\TextFile1.txt">
+      <PackagePath>TextFile1.txt</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\RosTorv.xr.xml">
       <PackagePath>RosTorv.xr.xml</PackagePath>
     </AppxPackagedFile>

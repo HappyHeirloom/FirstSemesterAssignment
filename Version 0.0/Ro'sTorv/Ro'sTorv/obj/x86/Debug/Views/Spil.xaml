@@ -24,12 +24,12 @@
             <Button x:ConnectionId='2' Width="64" Content="Higher"                     />
                 <StackPanel Orientation="Horizontal">
                     <Border BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
-                        <TextBlock x:ConnectionId='6' x:FieldModifier="public" Text=""  x:Name="GameNumber" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" Text=""  x:Name="GameNumber" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                     </Border>
                 <Border Margin="10,0,0,0" BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
-                    <TextBlock x:ConnectionId='5' x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock x:ConnectionId='4' x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                 </Border>
-                <Button x:ConnectionId='4' Content="Save score" Margin="5,0,0,0"                   />
+                <Button Content="Save score" Margin="5,0,0,0"/>
             </StackPanel>
 
             <Button x:ConnectionId='3' Width="64" Content="Lower"                    />
@@ -37,7 +37,10 @@
 
         <Border Margin="0,0,10,0"  BorderBrush="Gray" BorderThickness="4" Height="256" Width="108" VerticalAlignment="Center" HorizontalAlignment="Right">
             <ListView VerticalAlignment="Top" HorizontalAlignment="Center">
+                <StackPanel>
                 <TextBlock>Highscore</TextBlock>
+                    <TextBlock Text="{Binding content}"></TextBlock>
+                </StackPanel>
             </ListView>
         </Border>
     </Grid>

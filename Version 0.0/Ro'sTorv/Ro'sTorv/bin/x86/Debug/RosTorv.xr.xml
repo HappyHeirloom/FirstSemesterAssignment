@@ -9,7 +9,12 @@
     <RootPropertyPathName Name="Actors" />
     <RootPropertyPathName Name="Director" />
     <RootPropertyPathName Name="Movies" />
+    <RootPropertyPathName Name="SelectedGame" />
+    <RootPropertyPathName Name="Now" />
+    <RootPropertyPathName Name="Before" />
+    <RootPropertyPathName Name="Games" />
     <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="content" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -44,6 +49,9 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Child" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="Background" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="VerticalAlignment" />
@@ -56,6 +64,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Viewbox">
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="Child" />
+      <RootProperty Name="MaxWidth" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontSize" />
@@ -71,6 +80,7 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Tag" />
+      <RootProperty Name="MinWidth" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Mode" />
@@ -91,8 +101,8 @@
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Items" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Items" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />

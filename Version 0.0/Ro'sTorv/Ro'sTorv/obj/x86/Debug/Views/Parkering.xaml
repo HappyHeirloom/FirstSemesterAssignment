@@ -9,7 +9,71 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Image Width="auto" Height="auto" Source="/Assets/parkering.jpg"/>
+        <Image VerticalAlignment="Top"  Width="auto" Height="auto" Source="/Assets/parkering.png"/>
+        <TextBlock Margin="0,0,0,90" FontWeight="Bold" VerticalAlignment="Bottom">Parking information - hvad koster det at parkere i Ros Torv</TextBlock>
+        <Border Margin="0,0,10,10"  VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="100" Width="100" BorderBrush="Black" BorderThickness="2" Padding="0">
+            <TextBlock TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Right">Når du handler i Ros Torv kig efter de grønne lys, det er frie plader!</TextBlock>
+        </Border>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="left" Margin="0,0,10,10">
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="Gratis" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="Gratis" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="Kr. 15,- pr. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110"  Text="Kr. 15,- pr. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="Kr. 22,- pr. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="Kr. 22,- pr. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="Kr. 35,- pr. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="left" Margin="0,0,10,50">
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="1. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock  MinWidth="110" MaxWidth="110" Text="2. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="3. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="4. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="5. time" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="6. timer" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+            <Border Height="Auto" Width="auto" BorderBrush="Black" BorderThickness="0.5">
+                <TextBlock MinWidth="110" MaxWidth="110" Text="7. timer +" Padding="10" HorizontalAlignment="Center"/>
+            </Border>
+
+        </StackPanel>
     </Grid>
 </Page>
 

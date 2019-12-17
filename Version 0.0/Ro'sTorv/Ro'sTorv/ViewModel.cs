@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Ro_sTorv.Views;
 using RosTorv.Models;
+using Spil = RosTorv.Models.Spil;
 
 namespace Ro_sTorv
 {
@@ -22,8 +23,15 @@ namespace Ro_sTorv
         readonly Movie LastChristmasMovie = new Movie("Last Christmas", "Paul Feig", "Madison Ingoldsby, Emma Thompson, Boris Isakovic", "01:43", 13, "/Assets/movie4.jpg");
 
 
+        public ObservableCollection<Game> Games { get; set; } 
+        readonly Game breakpointGame = new Game("Ghost Recon: Breakpoint", 549, 249, "/Assets/PS4Game1.jpg");
+        readonly Game fifa20Game = new Game("Fifa 2020", 549, 549, "/Assets/PS4Game2.jpg");
+        readonly Game rdr2Game = new Game("Red dead redemption 2", 349, 299, "/Assets/PS4Game3.jpg");
+        readonly Game codmw19Game = new Game("Call of duty: Modern Warfare", 549, 469, "/Assets/PS4Game4.jpg");
+
 
         private Movie _SelectedMovie;
+        private Game _SelectedGame;
         public ViewModel()
         {
             Movies = new ObservableCollection<Movie>
@@ -34,7 +42,19 @@ namespace Ro_sTorv
                 LastChristmasMovie
             };
 
-            _SelectedMovie = Movies[1];
+            _SelectedMovie = Movies[0];
+
+            Games = new ObservableCollection<Game>
+            {
+                breakpointGame,
+                fifa20Game,
+                rdr2Game,
+                codmw19Game
+            };
+
+            _SelectedGame = Games[0];
+
+            Spil file = new Spil();
         }
 
         public Movie SelectedMovie
@@ -44,6 +64,17 @@ namespace Ro_sTorv
             set
             {
                 _SelectedMovie = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public Game SelectedGame
+        {
+            get => _SelectedGame;
+
+            set
+            {
+                _SelectedGame = value;
                 OnPropertyChanged();
             }
         }
