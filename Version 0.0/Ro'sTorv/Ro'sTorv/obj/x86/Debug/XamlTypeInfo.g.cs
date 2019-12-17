@@ -13,17 +13,17 @@ namespace Ro_sTorv
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::Ro_sTorv.Ro_sTorv_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::RosTorv.RosTorv_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::Ro_sTorv.Ro_sTorv_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::RosTorv.RosTorv_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::Ro_sTorv.Ro_sTorv_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::RosTorv.RosTorv_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace Ro_sTorv
     }
 }
 
-namespace Ro_sTorv.Ro_sTorv_XamlTypeInfo
+namespace RosTorv.RosTorv_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace Ro_sTorv.Ro_sTorv_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::Ro_sTorv.Ro_sTorv_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::RosTorv.RosTorv_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::Ro_sTorv.Ro_sTorv_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::RosTorv.RosTorv_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::Ro_sTorv.Ro_sTorv_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::RosTorv.RosTorv_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

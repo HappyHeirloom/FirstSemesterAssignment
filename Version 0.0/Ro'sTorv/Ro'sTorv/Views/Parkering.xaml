@@ -9,6 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Parkering</TextBlock>
+        <Image Width="auto" Height="auto" Source="/Assets/parkering.jpg"/>
     </Grid>
 </Page>

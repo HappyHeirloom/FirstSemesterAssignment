@@ -8158,9 +8158,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
-      "projectName": "Ro'sTorv",
-      "projectPath": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\Ro'sTorv.csproj",
+      "projectUniqueName": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\RosTorv.csproj",
+      "projectName": "RosTorv",
+      "projectPath": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\RosTorv.csproj",
       "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jonas\\Desktop\\Uni - Zealand\\FørsteSemesterEksamen\\FirstSemesterAssignment\\Version 0.0\\Ro'sTorv\\Ro'sTorv\\obj\\",
       "projectStyle": "PackageReference",

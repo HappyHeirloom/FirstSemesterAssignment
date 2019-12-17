@@ -10,9 +10,11 @@ namespace Ro_sTorv
 {
     public class ViewModel
     {
+        public string name_;
+        public string Name { get; set; }
         public ViewModel()
         {
-
+            Name = "Alex <3";
         }
 
         //public void LogIn(String Username, String Password)

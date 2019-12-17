@@ -7,6 +7,9 @@
     xmlns:local="using:Ro_sTorv"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.DataContext>
+        <local:ViewModel/>
+    </Page.DataContext>
     
     <Grid>
         <Grid.ColumnDefinitions>
@@ -128,6 +131,7 @@
             VerticalAlignment="Center"
             HorizontalAlignment="Center"
         > Welcome to RosTorv</TextBlock>-->
+
     </Grid>
 
 </Page>
