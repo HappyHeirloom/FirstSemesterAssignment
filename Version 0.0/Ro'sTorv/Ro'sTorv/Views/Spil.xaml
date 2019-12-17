@@ -25,7 +25,7 @@
                 <Border Margin="10,0,0,0" BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
                     <TextBlock x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                 </Border>
-                <Button Content="Save score" Margin="5,0,0,0"></Button>
+                <Button Content="Save score" Margin="5,0,0,0" Click="Test"></Button>
             </StackPanel>
 
             <Button Width="64" Content="Lower"/>

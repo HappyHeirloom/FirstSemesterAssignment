@@ -5,25 +5,25 @@ using System.Linq;
 using System.ServiceModel.Security;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml;
+using RosTorv.Models;
 
 namespace Ro_sTorv
 {
     public class ViewModel
     {
-        public string name_;
+        public ObservableCollection<Movie> Movies { get; set; }
+
+        private string name_;
         public string Name { get; set; }
         public ViewModel()
         {
+            Movies = new ObservableCollection<Movie>();
             Name = "Alex <3";
         }
 
-        //public void LogIn(String Username, String Password)
-        //{
-        //    String username = Username;
-        //    String password = Password;
 
-        //    if()
-        //}
+        Movie StarwarsMovie = new Movie("J. J. Abrams", "Oscar Isaac, Daisy Ridley, Billie Lourd", "2:22", 13);
 
     }
 }
