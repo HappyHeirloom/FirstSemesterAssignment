@@ -123,8 +123,8 @@
     <Compile Include="Models\Highscore.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\Spil.cs" />
+    <Compile Include="Models\Clothes.cs" />
     <Compile Include="Persistence.cs" />
-    <Compile Include="settings.cs" />
     <Compile Include="Views\Biograf.xaml.cs">
       <DependentUpon>Biograf.xaml</DependentUpon>
     </Compile>
@@ -143,6 +143,9 @@
     <Compile Include="Views\Gamestop.xaml.cs">
       <DependentUpon>Gamestop.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Hm.xaml.cs">
+      <DependentUpon>Hm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
@@ -157,7 +160,6 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel.cs" />
-    <Compile Include="Views\Movies.cs" />
     <Compile Include="Views\Parkering.xaml.cs">
       <DependentUpon>Parkering.xaml</DependentUpon>
     </Compile>
@@ -177,6 +179,16 @@
     <Content Include="Assets\fb.png" />
     <Content Include="Assets\Gamestop.png" />
     <Content Include="Assets\GameStopLocation.jpg" />
+    <Content Include="Assets\hm.png" />
+    <Content Include="Assets\hm1.jpg" />
+    <Content Include="Assets\hm2.jpg" />
+    <Content Include="Assets\hm3.jpg" />
+    <Content Include="Assets\hm4.jpg" />
+    <Content Include="Assets\hmModel1.jpg" />
+    <Content Include="Assets\hmModel2.jpg" />
+    <Content Include="Assets\hmModel3.jpg" />
+    <Content Include="Assets\hmModel4.jpg" />
+    <Content Include="Assets\HogM.jpg" />
     <Content Include="Assets\ig.png" />
     <Content Include="Assets\movie1.jpg" />
     <Content Include="Assets\movie2.jpg" />
@@ -228,6 +240,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Gamestop.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Hm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

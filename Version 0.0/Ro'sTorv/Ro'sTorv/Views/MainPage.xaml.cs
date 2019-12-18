@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Ro_sTorv.Views;
+using RosTorv.Views;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -81,8 +82,8 @@ namespace Ro_sTorv
                             contentFrame.Navigate(typeof(Gamestop));
                             break;
 
-                        case "Nav_DefaultShop":
-                            contentFrame.Navigate(typeof(DefaultShop));
+                        case "Nav_Hm":
+                            contentFrame.Navigate(typeof(Hm));
                             break;
 
                         case "Nav_Event":

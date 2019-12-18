@@ -85,8 +85,8 @@
                 <NavigationViewItem Icon="Shop" Tag="Gamestop_Page">
                     <TextBlock Tag="Nav_Gamestop">Gamestop</TextBlock>
                 </NavigationViewItem>
-                <NavigationViewItem Icon="Shop" Tag="DefaultShop_Page">
-                    <TextBlock Tag="Nav_DefaultShop">H&amp;M</TextBlock>
+                <NavigationViewItem Icon="Shop" Tag="Hm_Page">
+                    <TextBlock Tag="Nav_Hm">H&amp;M</TextBlock>
                 </NavigationViewItem>
 
                 <!--Seperates the items with a line-->

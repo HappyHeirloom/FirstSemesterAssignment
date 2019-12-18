@@ -35,12 +35,20 @@ namespace Ro_sTorv
         readonly Game codmw19Game = new Game("Call of duty: Modern Warfare", 549, 469, "/Assets/PS4Game4.jpg");
 
 
+        public ObservableCollection<Clothes> Clothes { get; set; }
+        readonly Clothes hoodieClothes = new Clothes("Hoodie", 299, 229, "/Assets/hm1.jpg", "/Assets/hmModel1.jpg");
+        readonly Clothes nightgownClothes = new Clothes("Nightgown", 629, 329, "/Assets/hm2.jpg", "/Assets/hmModel2.jpg");
+        readonly Clothes kidsHoodieClothes = new Clothes("Kids Hoodie", 249, 119, "/Assets/hm3.jpg", "/Assets/hmModel3.jpg");
+        readonly Clothes dressClothes = new Clothes("Dress", 789, 569, "/Assets/hm4.jpg", "/Assets/hmModel4.jpg");
+
+
         public ObservableCollection<Highscore> Highscores { get; set; }
         readonly  Highscore number1Highscore = new Highscore();
 
 
         private Movie _SelectedMovie;
         private Game _SelectedGame;
+        private Clothes _SelectedClothes;
         public static readonly DependencyProperty CurrentScoreProperty = DependencyProperty.Register("CurrentScore", typeof(object), typeof(ViewModel), new PropertyMetadata(default(object)));
 
         public ViewModel()
@@ -69,7 +77,17 @@ namespace Ro_sTorv
             {
                 number1Highscore
             };
-            
+
+            Clothes = new ObservableCollection<Clothes>
+            {
+                hoodieClothes,
+                nightgownClothes,
+                kidsHoodieClothes,
+                dressClothes
+            };
+
+            _SelectedClothes = Clothes[0];
+
         }
 
         public Movie SelectedMovie
@@ -90,6 +108,17 @@ namespace Ro_sTorv
             set
             {
                 _SelectedGame = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public Clothes SelectedClothes
+        {
+            get => _SelectedClothes;
+
+            set
+            {
+                _SelectedClothes = value;
                 OnPropertyChanged();
             }
         }

@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\Gamestop.png">
       <PackagePath>Assets\Gamestop.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hm.png">
+      <PackagePath>Assets\hm.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\ig.png">
       <PackagePath>Assets\ig.png</PackagePath>
     </AppxPackagedFile>
@@ -78,6 +81,33 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\GameStopLocation.jpg">
       <PackagePath>Assets\GameStopLocation.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hm1.jpg">
+      <PackagePath>Assets\hm1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hm2.jpg">
+      <PackagePath>Assets\hm2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hm3.jpg">
+      <PackagePath>Assets\hm3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hm4.jpg">
+      <PackagePath>Assets\hm4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hmModel1.jpg">
+      <PackagePath>Assets\hmModel1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hmModel2.jpg">
+      <PackagePath>Assets\hmModel2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hmModel3.jpg">
+      <PackagePath>Assets\hmModel3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\hmModel4.jpg">
+      <PackagePath>Assets\hmModel4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\HogM.jpg">
+      <PackagePath>Assets\HogM.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\Assets\movie1.jpg">
       <PackagePath>Assets\movie1.jpg</PackagePath>
@@ -144,6 +174,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Gamestop.xbf">
       <PackagePath>Views\Gamestop.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Hm.xbf">
+      <PackagePath>Views\Hm.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jonas\Desktop\Uni - Zealand\FørsteSemesterEksamen\FirstSemesterAssignment\Version 0.0\Ro%27sTorv\Ro%27sTorv\bin\x86\Debug\Views\Home.xbf">
       <PackagePath>Views\Home.xbf</PackagePath>

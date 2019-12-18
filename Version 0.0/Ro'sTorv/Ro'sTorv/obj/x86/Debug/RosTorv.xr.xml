@@ -13,7 +13,11 @@
     <RootPropertyPathName Name="Now" />
     <RootPropertyPathName Name="Before" />
     <RootPropertyPathName Name="Games" />
+    <RootPropertyPathName Name="SelectedClothes" />
+    <RootPropertyPathName Name="modelPath" />
     <RootPropertyPathName Name="Name" />
+    <RootPropertyPathName Name="Clothes" />
+    <RootPropertyPathName Name="imgPath" />
     <RootPropertyPathName Name="Highscores" />
     <RootPropertyPathName Name="Score" />
   </Roots.PropertyPathNames>
@@ -115,6 +119,7 @@
     <RootType FullName="Ro_sTorv.Views.DefaultShop" />
     <RootType FullName="Ro_sTorv.Views.Events" />
     <RootType FullName="Ro_sTorv.Views.Gamestop" />
+    <RootType FullName="RosTorv.Views.Hm" />
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Margin" />
       <RootProperty Name="NavigateUri" />

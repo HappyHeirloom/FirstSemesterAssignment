@@ -2,6 +2,16 @@ WinMetadata\Windows.winmd
 Assets\fb.png
 Assets\Gamestop.png
 Assets\GameStopLocation.jpg
+Assets\hm.png
+Assets\hm1.jpg
+Assets\hm2.jpg
+Assets\hm3.jpg
+Assets\hm4.jpg
+Assets\hmModel1.jpg
+Assets\hmModel2.jpg
+Assets\hmModel3.jpg
+Assets\hmModel4.jpg
+Assets\HogM.jpg
 Assets\ig.png
 Assets\LockScreenLogo.scale-200.png
 Assets\movie1.jpg
@@ -32,6 +42,7 @@ Views\Center.xbf
 Views\DefaultShop.xbf
 Views\Events.xbf
 Views\Gamestop.xbf
+Views\Hm.xbf
 Views\Home.xbf
 Views\Leaderboard.xbf
 Views\LogIn.xbf
