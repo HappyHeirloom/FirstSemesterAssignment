@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.ServiceModel.Security;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
@@ -24,96 +25,75 @@ namespace Ro_sTorv.Views
     /// </summary>
     public sealed partial class Spil : Page
     {
+        ViewModel vm = new ViewModel();
         public Spil()
         {
             this.InitializeComponent();
-            GameNumber.Text = "0";
-            Score.Text = "0";
-            ReadFile();
+            this.Score.Text = "1";
         }
 
-        public string content
+        private void SaveScore(object sender, RoutedEventArgs e)
         {
-            get => content;
-            set { content = value; }
+            string username = this.username.Text;
+            string userscore = this.Score.Text + ":" +"0";
+            vm.SaveScore(username, userscore);
         }
 
-        public async void ReadFile()
-        {
-            string fileName = "TextFile1.txt";
-            string content = "";
+        //public void AddScore()
+        //{
+        //    int score = Int32.Parse(Score.Text);
 
-            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(new Uri(@"ms-appx:///" + fileName));
-            using (StreamReader reader = new StreamReader(await file.OpenStreamForReadAsync()))
-            {
-                content = reader.ReadToEnd();
-            }
-
-            MessageDialog msg = new MessageDialog(content);
-            await msg.ShowAsync();
-
-        }
+        //    score++;
+        //}
 
 
+        //public void Higher()
+        //{
+        //    int newNumber = NumberGenerator();
+        //    int currentNum = Int32.Parse(GameNumber.Text);
+        //    if (currentNum < newNumber)
+        //    {
+        //        AddScore();
+        //    }
+        //    else
+        //    {
+        //        Score.Text = "0";
+        //    }
+        //}
 
+        //public void Lower()
+        //{
+        //    int newNumber = NumberGenerator();
+        //    int currentNum = Int32.Parse(GameNumber.Text);
+        //    if (currentNum > newNumber)
+        //    {
+        //        AddScore();
+        //    }
+        //    else
+        //    {
+        //        Score.Text = "0";
+        //    }
+        //}
 
+        //public int NumberGenerator()
+        //{
+        //    Random random = new Random();
+        //    return random.Next(0, 10);
+        //}
 
+        //private void SendToSave(object sender, RoutedEventArgs e)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public void AddScore()
-        {
-            int score = Int32.Parse(Score.Text);
+        //private void SendToLower(object sender, RoutedEventArgs e)
+        //{
+        //    Lower();
+        //}
 
-            score++;
-        }
-
-
-        public void Higher()
-        {
-            int newNumber = NumberGenerator();
-            int currentNum = Int32.Parse(GameNumber.Text);
-            if (currentNum < newNumber)
-            {
-                AddScore();
-            }
-            else
-            {
-                Score.Text = "0";
-            }
-        }
-
-        public void Lower()
-        {
-            int newNumber = NumberGenerator();
-            int currentNum = Int32.Parse(GameNumber.Text);
-            if (currentNum > newNumber)
-            {
-                AddScore();
-            }
-            else
-            {
-                Score.Text = "0";
-            }
-        }
-
-        public int NumberGenerator()
-        {
-            Random random = new Random();
-            return random.Next(0, 10);
-        }
-
-        private void SendToSave(object sender, RoutedEventArgs e)
-        {
-            throw new NotImplementedException();
-        }
-
-        private void SendToLower(object sender, RoutedEventArgs e)
-        {
-            Lower();
-        }
-
-        private void SendToHigher(object sender, RoutedEventArgs e)
-        {
-            Higher();
-        }
+        //private void SendToHigher(object sender, RoutedEventArgs e)
+        //{
+        //    Higher();
+        //}
     }
 }

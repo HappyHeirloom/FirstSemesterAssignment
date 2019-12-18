@@ -16,31 +16,42 @@
         <TextBlock HorizontalAlignment="Center" FontSize="72" Text="Higher or lower"></TextBlock>
 
         <StackPanel Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center">
-        <TextBlock Text="To save your highscore, write your name"></TextBlock>
-            <TextBox PlaceholderText="Write your name here"></TextBox>
+            <TextBlock Text="To save your highscore, write your name"></TextBlock>
+            <TextBox x:ConnectionId='6' x:Name="username" PlaceholderText="Write your name here" Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
         </StackPanel>
 
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:ConnectionId='2' Width="64" Content="Higher"                     />
+            <Button Width="64" Content="Higher"/>
                 <StackPanel Orientation="Horizontal">
                     <Border BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
-                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" Text=""  x:Name="GameNumber" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" Text="5"  x:Name="GameNumber" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                     </Border>
                 <Border Margin="10,0,0,0" BorderBrush="Gray" BorderThickness="4" Height="64" Width="64">
-                    <TextBlock x:ConnectionId='4' x:Name="Score" Text="12" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock x:ConnectionId='4' x:Name="Score" Text="{Binding Score, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                 </Border>
-                <Button Content="Save score" Margin="5,0,0,0"/>
+                <Button x:ConnectionId='3' Content="Save score" Margin="5,0,0,0"                  />
             </StackPanel>
 
-            <Button x:ConnectionId='3' Width="64" Content="Lower"                    />
+            <Button Width="64" Content="Lower"/>
         </StackPanel>
 
-        <Border Margin="0,0,10,0"  BorderBrush="Gray" BorderThickness="4" Height="256" Width="108" VerticalAlignment="Center" HorizontalAlignment="Right">
-            <ListView VerticalAlignment="Top" HorizontalAlignment="Center">
-                <StackPanel>
-                <TextBlock>Highscore</TextBlock>
-                    <TextBlock Text="{Binding content}"></TextBlock>
-                </StackPanel>
+        <Border Margin="0,0,10,0" Padding="2"  BorderBrush="Gray" BorderThickness="4" Height="256" Width="108" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <ListView 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Center"
+                ItemsSource="{Binding Highscores, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+            >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Spacing="10">
+                            <TextBlock Text="Highscore"></TextBlock>
+                            <TextBlock>
+                                <Run Text="{Binding Name}"/>
+                                <Run Text="{Binding Score}"/>
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
         </Border>
     </Grid>

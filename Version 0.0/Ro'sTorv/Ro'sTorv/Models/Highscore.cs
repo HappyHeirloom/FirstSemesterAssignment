@@ -1,46 +1,49 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
-using System.IO;
-using System.Runtime;
+using System.Linq;
 using System.Runtime.CompilerServices;
-using Windows.Storage;
-using Windows.UI.Popups;
-using Windows.UI.Xaml.Controls;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace RosTorv.Models
 {
-    public class Spil : INotifyPropertyChanged
+    public class Highscore : INotifyPropertyChanged
     {
-        private string _name;
-        private string _score;
+        Persistence persistence = new Persistence();
 
-        public Spil(string Name, string Score)
+        private string _Name;
+        private string _Score;
+
+        public Highscore()
         {
-            _name = Name;
-            _score = Score;
-        }
+            persistence.LoadScore();
+            Name = persistence.HighscoreName;
+            Score = persistence.HighscoreScore;
 
+            _Name = Name;
+            _Score = Score;
+        }
 
         public string Name
         {
-            get => _name;
+            get => persistence.HighscoreName;
             set
             {
-                _name = value;
+                _Name = value;
                 OnPropertyChanged();
             }
         }
 
         public string Score
         {
-            get => _score;
+            get => persistence.HighscoreScore;
             set
             {
-                _score = value;
+                _Score = value;
                 OnPropertyChanged();
             }
         }
-
 
         #region INotifyPropertyChanged code
         public event PropertyChangedEventHandler PropertyChanged;

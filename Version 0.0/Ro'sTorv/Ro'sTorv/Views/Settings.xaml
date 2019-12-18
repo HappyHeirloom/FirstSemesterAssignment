@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock>Settings</TextBlock>
+        <StackPanel>
+            <TextBlock>Settings</TextBlock>
+            <Button Content="Darkmode" Click="SetDarkmode"></Button>
+            <Button Content="Lightmode" Click="SetLightmode"></Button>
+        </StackPanel>
     </Grid>
 </Page>

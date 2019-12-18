@@ -75,8 +75,8 @@ namespace Ro_sTorv
             }
             var titleBar = ApplicationView.GetForCurrentView().TitleBar;
 
-            titleBar.BackgroundColor = Windows.UI.Colors.Azure;
-            titleBar.ButtonBackgroundColor = Windows.UI.Colors.Azure;
+            titleBar.BackgroundColor = Windows.UI.Colors.GreenYellow;
+            titleBar.ButtonBackgroundColor = Windows.UI.Colors.GreenYellow;
             titleBar.ButtonHoverBackgroundColor = Windows.UI.Colors.DarkSeaGreen;
             titleBar.ButtonPressedBackgroundColor = Windows.UI.Colors.LightGreen;
 

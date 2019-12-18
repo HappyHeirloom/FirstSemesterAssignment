@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Ro_sTorv.Views;
+using RosTorv;
 using RosTorv.Models;
 using Spil = RosTorv.Models.Spil;
 
@@ -16,6 +17,10 @@ namespace Ro_sTorv
 {
     public class ViewModel : INotifyPropertyChanged
     {
+        Persistence persistence = new Persistence();
+        private string _Name;
+        private string _Score;
+
         public ObservableCollection<Movie> Movies { get; set; }
         readonly Movie StarwarsMovie = new Movie("Starwars The Rise of Skywalker", "J. J. Abrams", "Oscar Isaac, Daisy Ridley, Billie Lourd", "2:22", 13, "/Assets/movie1.jpg");
         readonly Movie FrozenMovie = new Movie("Frozen 2","Chris Buck, Jennifer Lee", "Kristen Bell, Idina Menzel, Josh Gad", "01:43", 7, "/Assets/movie2.jpg");
@@ -30,8 +35,14 @@ namespace Ro_sTorv
         readonly Game codmw19Game = new Game("Call of duty: Modern Warfare", 549, 469, "/Assets/PS4Game4.jpg");
 
 
+        public ObservableCollection<Highscore> Highscores { get; set; }
+        readonly  Highscore number1Highscore = new Highscore();
+
+
         private Movie _SelectedMovie;
         private Game _SelectedGame;
+        public static readonly DependencyProperty CurrentScoreProperty = DependencyProperty.Register("CurrentScore", typeof(object), typeof(ViewModel), new PropertyMetadata(default(object)));
+
         public ViewModel()
         {
             Movies = new ObservableCollection<Movie>
@@ -54,7 +65,11 @@ namespace Ro_sTorv
 
             _SelectedGame = Games[0];
 
-            Spil file = new Spil();
+            Highscores = new ObservableCollection<Highscore>
+            {
+                number1Highscore
+            };
+            
         }
 
         public Movie SelectedMovie
@@ -79,6 +94,38 @@ namespace Ro_sTorv
             }
         }
 
+        public string Name
+        {
+            get => _Name;
+            set
+            {
+                _Name = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public string Score
+        {
+            get => _Score;
+            set
+            {
+                _Score = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public void ShowScore()
+        {
+            persistence.LoadScore();
+        }
+
+        public void SaveScore(string name, string score)
+        {
+            string username = name;
+            string userscore = score;
+
+            persistence.SaveScore(username, userscore);
+        }
 
         #region INotifyPropertyChanged code
         public event PropertyChangedEventHandler PropertyChanged;
@@ -87,5 +134,6 @@ namespace Ro_sTorv
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
+
     }
 }

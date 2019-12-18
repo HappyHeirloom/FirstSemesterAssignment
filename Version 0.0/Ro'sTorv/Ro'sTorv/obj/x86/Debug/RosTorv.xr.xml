@@ -14,7 +14,8 @@
     <RootPropertyPathName Name="Before" />
     <RootPropertyPathName Name="Games" />
     <RootPropertyPathName Name="Name" />
-    <RootPropertyPathName Name="content" />
+    <RootPropertyPathName Name="Highscores" />
+    <RootPropertyPathName Name="Score" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -177,6 +178,9 @@
     <RootType FullName="Ro_sTorv.MainPage" />
     <RootType FullName="Ro_sTorv.Views.Parkering" />
     <RootType FullName="Ro_sTorv.Views.Settings" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+    </RootType>
     <RootType FullName="Ro_sTorv.Views.Spil" />
   </Roots.RootTypes>
 </Roots>

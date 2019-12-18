@@ -26,5 +26,15 @@ namespace Ro_sTorv.Views
         {
             this.InitializeComponent();
         }
+
+        private void SetDarkmode(object sender, RoutedEventArgs e)
+        {
+            RequestedTheme = ElementTheme.Dark;
+        }
+
+        private void SetLightmode(object sender, RoutedEventArgs e)
+        {
+            RequestedTheme = ElementTheme.Light;
+        }
     }
 }
